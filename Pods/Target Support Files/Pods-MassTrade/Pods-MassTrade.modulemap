@@ -1,0 +1,6 @@
+framework module Pods_MassTrade {
+  umbrella header "Pods-MassTrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

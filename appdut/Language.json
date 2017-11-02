@@ -1,0 +1,670 @@
+{
+    "country": [{
+                "key": "en",
+                "value": "English"
+                }, {
+                "key": "vn",
+                "value": "Tiếng Việt"
+                }, {
+                "key": "sp",
+                "value": "Spanish"
+                }, {
+                "key": "cn",
+                "value": "简"
+                }, {
+                "key": "hk",
+                "value": "繁"
+                }],
+    "language": {
+        
+        "DragToFillTheWholeDisplayText": {
+            "en": "Drag to fill the whole display",
+            "cn": "拖动以填充整个显示",
+            "hk": "拖動以填充整個顯示",
+            "sp": "Arrastre para llenar toda la pantalla",
+            "vn": "Quét và tô đầy màn hình"
+        },
+        
+        "WipeToChangeScreenColorText": {
+            "en": "Swipe to change screen color",
+            "cn": "滑动即可更改屏幕颜色",
+            "hk": "滑動即可更改屏幕顏色",
+            "sp": "Deslizar para cambiar el color de la pantalla",
+            "vn": "Quét sẽ đổi màu màn hình"
+        },
+        "CheckTheScreenCarefullyToFindTheDeadPixelText": {
+            "en": "Check the screen carefully to find the dead pixel",
+            "cn": "仔细检查屏幕，找到死像素",
+            "hk": "仔細檢查屏幕，找到死像素",
+            "sp": "Compruebe la pantalla cuidadosamente para encontrar el píxel muerto",
+            "vn": "Kiểm tra điểm chết trên LCD"
+        },
+        "ClickStartToBeginText": {
+            "en": "Click start to begin",
+            "cn": "单击开始开始",
+            "hk": "單擊開始開始",
+            "sp": "Haga clic en comenzar para comenzar",
+            "vn": "Nhấn Start để bắt đầu"
+        },
+        "DeadPixelTestText": {
+            "en": "Dead Pixel test",
+            "cn": "死像素測試",
+            "hk": "死像素测试",
+            "sp": "Dead Pixel test",
+            "vn": "Kiểm tra LCD"
+        },
+        "WereDeadPixelsDiscoveredText": {
+            "en": "Were dead pixels discovered?",
+            "cn": "分别坏点发现?",
+            "hk": "分別壞點發現?",
+            "sp": "Fueron descubiertos píxeles muertos?",
+            "vn": "Có phát hiện điểm chết?"
+        },
+        "FailedText": {
+            "en": "Failed",
+            "cn": "失败",
+            "hk": "失敗",
+            "sp": "Falló",
+            "vn": "Có"
+        },
+        "PassedText": {
+            "en": "Passed",
+            "cn": "通过",
+            "hk": "通過",
+            "sp": "Pasado",
+            "vn": "Không"
+        },
+        "AutomaticTestText": {
+            "en": "Automatic test",
+            "cn": "自動測試",
+            "hk": "自动测试",
+            "sp": " Prueba automática",
+            "vn": "Kiểm tra tự động"
+        },
+        "HoldYourPhoneStableTest": {
+            "en": "Hold your phone stable",
+            "cn": "保持手機穩定",
+            "hk": "保持手机稳定",
+            "sp": "Mantenga el teléfono estable",
+            "vn": "Giữ phone ổn định"
+        },
+        "DontBlockTheCameraText": {
+            "en": "Don't block the camera",
+            "cn": "請勿擋住相機",
+            "hk": "请勿挡住相机",
+            "sp": "No bloquee la cámara",
+            "vn": "Không khoá Camera"
+        },
+        "FrontBackCamerasTestText": {
+            "en": "Front & back cameras test",
+            "cn": "前後相機測試擋住相機",
+            "hk": "前後相機測試擋住相機",
+            "sp": "NCámaras frontales y traseras",
+            "vn": "Kiểm tra camera trước/sau"
+        },
+        "DontBlockTheBackCameraAndMicrophoneText": {
+            "en": "Don’t block the back camera and microphone",
+            "cn": "不要阻擋後置攝像頭和麥克風",
+            "hk": "不要阻挡后置摄像头和麦克风",
+            "sp": "No bloquee la cámara trasera y el micrófono",
+            "vn": "Không khoá camera và microphone"
+        },
+        "VideoRecordingTestText": {
+            "en": "Video recording test",
+            "cn": "視頻錄製測試",
+            "hk": "视频录制测试",
+            "sp": "Prueba de grabación de video",
+            "vn": "Kiểm tra quay phim"
+        },
+        "ExternalSpeakerMICTestText": {
+            "en": "External speaker & MIC test",
+            "cn": "外部揚聲器和MIC測試",
+            "hk": "外部扬声器和MIC测试",
+            "sp": "Altavoz externo y prueba MIC",
+            "vn": "Kiểm tra loa và microphone"
+        },
+        "DontBlockTheExternalSpeakerAndMicrophoneText": {
+            "en": "Don’t block the external speaker and microphone",
+            "cn": "不要阻擋外部揚聲器和麥克風",
+            "hk": "不要阻挡外部扬声器和麦克风",
+            "sp": "No bloquee el altavoz y el micrófono externos",
+            "vn": "Không khoá microphone và speaker"
+        },
+        "FlashTestText": {
+            "en": "Flash test",
+            "cn": "闪光灯",
+            "hk": "閃光燈",
+            "sp": "Flash test",
+            "vn": "Kiểm tra đèn flash"
+        },
+        "DontFaceTheBackCameraToLightSourceText": {
+            "en": "Don’t face the back camera to light source",
+            "cn": "不要將後置攝像頭面對光源",
+            "hk": "不要将后置摄像头面向光源",
+            "sp": "No haga frente a la cámara trasera a la fuente de luz",
+            "vn": "Không để camera sau đối diện với nguồn sáng"
+        },
+        
+        "FlipRingSilentSwitchText": {
+            "en": "Flip Ring/Silent switch",
+            "cn": "翻轉環/靜音開關",
+            "hk": "翻转环/静音开关",
+            "sp": "Flip Ring / Silent",
+            "vn": "Gạt nút Ring/Silent"
+        },
+        "PressVolumeCongText": {
+            "en": "Press Volume +",
+            "cn": "按音量+",
+            "hk": "按音量+",
+            "sp": "Presione Volumen +",
+            "vn": "Nhấn Volume +"
+        },
+        "PressVolumeTruText": {
+            "en": "Press Volume -",
+            "cn": "按音量-",
+            "hk": "按音量-",
+            "sp": "Presione Volumen -",
+            "vn": "Nhấn Volume -"
+        },
+        "PressHomeButtonText": {
+            "en": "Press Home Button",
+            "cn": "按主頁按鈕",
+            "hk": "按主页按钮",
+            "sp": "Presione Inicio",
+            "vn": "Nhấn nút Home"
+        },
+        "PressPowerButtonText": {
+            "en": "Press Sleep/Wake button",
+            "cn": "按睡眠/喚醒按鈕",
+            "hk": "按睡眠/唤醒按钮",
+            "sp": "Prensa de energía",
+            "vn": "Nhấn nút nguồn"
+        },
+        "ButtonsTestText": {
+            "en": "Buttons Test",
+            "cn": "Buttons Test",
+            "hk": "Buttons Test",
+            "sp": "Buttons Test",
+            "vn": "Kiểm tra các nút nhấn"
+        },
+        "TouchIDTestText": {
+            "en": "Touch ID test",
+            "cn": "Touch ID test",
+            "hk": "Touch ID test",
+            "sp": "Touch ID test",
+            "vn": "Kiểm tra vân tay"
+        },
+        "StartText": {
+            "en": "Start",
+            "cn": "开始",
+            "hk": "開始",
+            "sp": "Iniciar",
+            "vn": "Bắt đầu"
+        },
+        "PleaseSetupTouchIDText": {
+            "en": "Please setup Touch ID then",
+            "cn": "請設置Touch ID",
+            "hk": "请设置Touch ID",
+            "sp": "Por favor, configure el identificador táctil",
+            "vn": "Cài đặt Touch ID"
+        },
+        "PlaceYourFingerOnTheHomeButtonText": {
+            "en": "Place your finger on the Home button",
+            "cn": "將手指放在主頁按鈕上",
+            "hk": "将手指放在主页按钮上",
+            "sp": "Coloque el dedo en el botón Inicio",
+            "vn": "Đặt ngón tay lên trên Home button"
+        },
+        
+        "ConnectWiFiToNetworkAndClickStart": {
+            "en": "Connect Wi-Fi to network and click Start",
+            "cn": "將Wi-Fi連接到網絡，然後單擊開始",
+            "hk": "将Wi-Fi连接到网络，然后单击开始",
+            "sp": "Conecte Wi-Fi a la red y haga clic en Iniciar",
+            "vn": "Kết Nối Wi-Fi sau đó nhấn Start"
+        },
+        "WiFiTestText": {
+            "en": "Wi-Fi test",
+            "cn": "Wi-Fi test",
+            "hk": "Wi-Fi test",
+            "sp": "Wi-Fi test",
+            "vn": "Kiểm tra Wi-Fi"
+        },
+        "PleaseTurnOffWiFiAndEnableMobileData": {
+            "en": "Please Turn off Wi-Fi and Enable Mobile Data",
+            "cn": "請關閉Wi-Fi並啟用移動數據",
+            "hk": "请关闭Wi-Fi并启用移动数据",
+            "sp": "Desactivar Wi-Fi y habilitar datos móviles",
+            "vn": "Tắt Wi-Fi và bật 3G"
+        },
+        "EndCallAndCombackApp": {
+            "en": "End call and come back app",
+            "cn": "結束通話並回來的應用程序",
+            "hk": "结束通话并回来的应用程序",
+            "sp": "Finalizar llamada y volver a la aplicación",
+            "vn": "Tắt cuộc gọi và bật lại app"
+        },
+        "ProximityTestText": {
+            "en": "Proximity test",
+            "cn": "接近测试",
+            "hk": "接近測試",
+            "sp": "Prueba de proximidad",
+            "vn": "Kiểm tra cảm biến tiệm cận"
+        },
+        "PlaceYourHandOnToOfTheScreenText": {
+            "en": "Place your hand on top of the screen",
+            "cn": "將手放在屏幕頂部",
+            "hk": "将手放在屏幕顶部",
+            "sp": "Coloque su mano en la parte superior de la pantalla",
+            "vn": "Đặt tay che phía trên màn hình"
+        },
+        
+        "MotionTestText": {
+            "en": "Motion Test",
+            "cn": "运动测试",
+            "hk": "運動測試",
+            "sp": "Prueba de movimiento",
+            "vn": "Kiểm tra chuyển động"
+        },
+        "CompassTestText": {
+            "en": "Compass Test",
+            "cn": "指南针测试",
+            "hk": "指南針測試",
+            "sp": "Prueba de brújula",
+            "vn": "Kiểm tra la bàn"
+        },
+        "RotationThePhoneToFollowShapeOfNo8": {
+            "en": "Rotation the device to follow shape of no.8",
+            "cn": "旋轉設備以遵循數字8的形狀",
+            "hk": "旋转设备以遵循数字8的形状",
+            "sp": "Rotación del dispositivo para seguir la forma de no.8",
+            "vn": "Quay phone theo hình số 8"
+        },
+        "CancelText": {
+            "en": "Cancel",
+            "cn": "取消",
+            "hk": "取消",
+            "sp": "Cancelar",
+            "vn": "Hủy"
+        },
+        "SettingText": {
+            "en": "Setting",
+            "cn": "設置",
+            "hk": "设置",
+            "sp": "Ajustes",
+            "vn": "Cài Đặt"
+        },
+        "GPSTestText": {
+            "en": "GPS test",
+            "cn": "GPS测试",
+            "hk": "GPS測試",
+            "sp": "Prueba de GPS",
+            "vn": "Kiểm tra GPS"
+        },
+        "NowTryAgainText": {
+            "en": "Now try again",
+            "cn": "現在再試",
+            "hk": "现在再试一次",
+            "sp": "Ahora inténtalo de nuevo",
+            "vn": "Thử lại"
+        },
+        "AgreeText": {
+            "en": "Agree",
+            "cn": "同意",
+            "hk": "同意",
+            "sp": "Acordar",
+            "vn": "Đồng ý"
+        },
+        "DisagreeText": {
+            "en": "Disagree",
+            "cn": "不同意",
+            "hk": "不同意",
+            "sp": "Discrepar",
+            "vn": "Thoát"
+        },
+        
+        "BeginViewNote1Text": {
+            "en": "1. The test results of this app is just for your reference, using it at your own risk.",
+            "cn": "1.这个程序的测试结果只供您参考，使用它自己的风险。",
+            "hk": "1.這個程序的測試結果只供您參考，使用它自己的風險。",
+            "sp": "1. Los resultados de la prueba de esta aplicación es sólo para su referencia, por su cuenta y riesgo.",
+            "vn": "1. Kết quả chỉ có tính chất tham khảo, không sử dụng cho muc đích riêng."
+        },
+        "BeginViewNote2Text": {
+            "en": "2. These tests: Camera, Video recording, Wi-Fi, 3G/4G, Call just test whether they can launch or not, their quality are not test.",
+            "cn": "2.这些测试：摄像头，录像，Wi-Fi，3G/4G，呼叫只是测试他们是否可以发射，他们的质量不测试。",
+            "hk": "2.這些測試：攝像頭，錄像，Wi-Fi，3G/4G，呼叫只是測試他們是否可以發射，他們的質量不測試。",
+            "sp": "2. Estas pruebas: Cámara, grabación de vídeo, Wi-Fi, 3G / 4G, llamada sólo prueba si pueden lanzar o no, su calidad no son prueba.",
+            "vn": "2. Các chức năng  Camera, Video recording, Wi-Fi, 3G/4G, Call chỉ xem có hoạt động hay không."
+        },
+        "ThanksForUsingOurSoftwareText": {
+            "en": "Thanks for using our software.",
+            "cn": "感谢您使用我们的软件",
+            "hk": "感謝您使用我們的軟件",
+            "sp": "Gracias por usar nuestro software",
+            "vn": "Cám ơn đã sử dụng chương trình."
+        },
+        
+        "TurnOnLocationServicesText": {
+            "en": "Turn on Location Services to allow app to determine your location",
+            "cn": "開啟位置服務，允許應用程式判斷您的位置",
+            "hk": "开启位置服务，允许应用程式判断您的位置",
+            "sp": "Activar Servicios de ubicación para permitir que la aplicación determine su ubicación",
+            "vn": "Bật GPS để cho phép ứng dụng xác định vị trí hiện tại"
+        },
+        
+        "TapKeep3FingersOnTheDisplayUntilFinishText": {
+            "en": "Tap & keep 3 fingers on the display until finish",
+            "cn": "点击并保持3根手指在显示屏上，直到完成",
+            "hk": "點擊並保持3根手指在顯示屏上，直到完成",
+            "sp": "Toque y mantenga 3 dedos en la pantalla hasta que finalice",
+            "vn": "Nhấn 3 ngón tay lên màn hình"
+        },
+        
+        "WarningText": {
+            "en": "Warning",
+            "cn": "警告",
+            "hk": "警告",
+            "sp": "Advertencia",
+            "vn": "LƯU Ý"
+        },
+        "DiagnosticsText": {
+            "en": "Diagnostics",
+            "cn": "诊断",
+            "hk": "診斷",
+            "sp": "Diagnóstico",
+            "vn": "Chẩn đoán"
+        },
+        "MultiTouchTestText": {
+            "en": "Multi-Touch test",
+            "cn": "多点触摸测试",
+            "hk": "多點觸摸測試",
+            "sp": "Prueba Multi-Touch",
+            "vn": "Cảm ứng đa điểm"
+        },
+
+        "TOUCHSCREEN": {
+            "en": "Digitizer",
+            "cn": "感应",
+            "hk": "感應",
+            "sp": "Inducción",
+            "vn": "Cảm ứng"
+        },
+        "BLUETOOTH": {
+            "en": "Bluetooth",
+            "cn": "Bluetooth",
+            "hk": "Bluetooth",
+            "sp": "Bluetooth",
+            "vn": "Bluetooth"
+        },
+        "MULTITOUCH": {
+            "en": "Multi touch",
+            "cn": "多点触摸",
+            "hk": "多點觸摸",
+            "sp": "Multi touch",
+            "vn": "Cảm ứng\nĐa điểm"
+        },
+        
+        "3DTOUCH": {
+            "en": "3D Touch",
+            "cn": "3D触控",
+            "hk": "3D觸控",
+            "sp": "3D Touch",
+            "vn": "3D Touch"
+        },
+        
+        "LCD": {
+            "en": "LCD",
+            "cn": "屏幕",
+            "hk": "屏幕",
+            "sp": "pantallas",
+            "vn": "Màn hình"
+        },
+        
+        "CAMERA": {
+            "en": "Camera",
+            "cn": "相机",
+            "hk": "相機",
+            "sp": "CÁMARA",
+            "vn": "Chụp hình"
+        },
+        
+        "VIDEORECORD": {
+            "en": "Video Record",
+            "cn": "视频",
+            "hk": "视频",
+            "sp": "Video Record",
+            "vn": "Quay phim"
+        },
+        
+        "RECORDBACK": {
+            "en": "Speaker + mic",
+            "cn": "扬声器+麦克风",
+            "hk": "揚聲器+麥克風",
+            "sp": "Altavoz + \nmicrófono",
+            "vn": "Loa + Mic"
+        },
+        
+        "CAMREAR": {
+            "en": "Flash",
+            "cn": "闪",
+            "hk": "閃",
+            "sp": "Destello",
+            "vn": "Đèn Flash"
+        },
+        
+        "BTFUNC": {
+            "en": "Buttons",
+            "cn": "纽扣",
+            "hk": "鈕扣",
+            "sp": "Botones",
+            "vn": "Nút nhấn"
+        },
+        
+        "TOUCHID": {
+            "en": "Touch ID",
+            "cn": "指纹",
+            "hk": "指紋",
+            "sp": "Touch ID",
+            "vn": "Vân tay"
+        },
+        "APPEARANCE": {
+            "en": "Appearance",
+            "cn": "Appearance",
+            "hk": "Appearance",
+            "sp": "Appearance",
+            "vn": "Appearance"
+        },
+        
+        "VIBRATION": {
+            "en": "Vibration",
+            "cn": "Vibration",
+            "hk": "Vibration",
+            "sp": "Vibration",
+            "vn": "Vibration"
+        },
+        
+        "WIFI": {
+            "en": "WI-FI",
+            "cn": "WI-FI",
+            "hk": "WI-FI",
+            "sp": "WI-FI",
+            "vn": "WI-FI"
+        },
+        
+        "3G/4G": {
+            "en": "3G/4G",
+            "cn": "3G/4G",
+            "hk": "3G/4G",
+            "sp": "3G/4G",
+            "vn": "3G/4G"
+        },
+        
+        "CALL": {
+            "en": "Call",
+            "cn": "呼叫",
+            "hk": "呼叫",
+            "sp": "Llamada",
+            "vn": "Nghe/Gọi"
+        },
+        
+        "PROXIMITYSENSOR": {
+            "en": "Proximity",
+            "cn": "接近",
+            "hk": "接近",
+            "sp": "Proximidad",
+            "vn": "Cảm biến\ntiệm cận"
+        },
+        
+        "MOTIONSENSOR": {
+            "en": "Motion",
+            "cn": "运动",
+            "hk": "運動",
+            "sp": "Movimiento",
+            "vn": "Cảm biến\ndi chuyển"
+        },
+        
+        "COMPASS": {
+            "en": "Compass",
+            "cn": "罗盘",
+            "hk": "羅盤",
+            "sp": "Brújula",
+            "vn": "La bàn"
+        },
+        "BATTERY": {
+            "en": "Battery",
+            "cn": "电池",
+            "hk": "電池",
+            "sp": "Batería",
+            "vn": "Pin"
+        },
+        "HPHONE": {
+            "en": "Headset",
+            "cn": "耳机",
+            "hk": "耳機",
+            "sp": "Auriculares",
+            "vn": "Tai Nghe"
+        },
+        "HeadphoneText": {
+            "en": "Headset",
+            "cn": "耳穴",
+            "hk": "耳穴",
+            "sp": "Auriculares",
+            "vn": "Kiểm tra tai nghe"
+        },
+        "PluggedText": {
+            "en": "Plugged",
+            "cn": "堵塞",
+            "hk": "堵塞",
+            "sp": "Plugged",
+            "vn": "Đã Cắm"
+        },
+        "PlugInHeadphoneAndListenText": {
+            "en": "Plug a headset and listen",
+            "cn": "插上耳机，听",
+            "hk": "插上耳機，聽",
+            "sp": "Conecte los auriculares y escuchar",
+            "vn": "Cắm tai nghe và lắng nghe"
+        },
+        "BatteryTestText": {
+            "en": "Battery Test",
+            "cn": "电池",
+            "hk": "電池",
+            "sp": "Batería",
+            "vn": "Kiểm tra Pin"
+        },
+
+        "BatteryLevelText": {
+            "en": "Battery Level",
+            "cn": "电池电量",
+            "hk": "電池電量",
+            "sp": "Nivel de bateria",
+            "vn": "Dung lượng Pin"
+        },
+        "BatteryStateText": {
+            "en": "Battery State",
+            "cn": "電池狀態",
+            "hk": "电池状态",
+            "sp": "Estado de la batería",
+            "vn": "Trạng thái Pin"
+        },
+        "UnknownText": {
+            "en": "Unknown",
+            "cn": "未知",
+            "hk": "未知",
+            "sp": "Desconocido",
+            "vn": "Không xác định"
+        },
+        "UnpluggedText": {
+            "en": "Unplugged",
+            "cn": "拔出",
+            "hk": "拔出",
+            "sp": "Desenchufado",
+            "vn": "Không cắm nguồn"
+        },
+        "ChargingText": {
+            "en": "Charging",
+            "cn": "充电",
+            "hk": "充電",
+            "sp": "Cargando",
+            "vn": "Đang sạc"
+        },
+        "FullText": {
+            "en": "Full",
+            "cn": "充分",
+            "hk": "充分",
+            "sp": "Completo",
+            "vn": "Đầy"
+        },
+
+        "GPS": {
+            "en": "GPS",
+            "cn": "全球定位",
+            "hk": "全球定位",
+            "sp": "GPS",
+            "vn": "Định vị"
+        },
+        "SayToHeadphoneMicAndListenText": {
+            "en": "Say to headset microphone and listen",
+            "cn": "說到耳機麥克風和監聽",
+            "hk": "说到耳机麦克风和监听",
+            "sp": "Diga al micrófono de los auriculares y escuchar",
+            "vn": "Nói vào microphone trên tai nghe và nghe âm thanh thu được"
+        },
+        "PressStartButtonAndSaySomethingToTestText": {
+            "en": "Press \"Start\" button and say something to test",
+            "cn": "按下啟動按鈕，並說一些測試",
+            "hk": "按下啟動按鈕，並說一些測試",
+            "sp": "Pulse el botón Inicio y diga algo para ponerlo a prueba",
+            "vn": "Nhấn \"Start\" và nói điều gì bạn muốn"
+        },
+        "RetestText": {
+            "en": "Retest",
+            "cn": "重新测试",
+            "hk": "重新測試",
+            "sp": "Retest",
+            "vn": "Test lại"
+        },
+        "UnplugHeadphoneHasSoundInPlayerText": {
+            "en": "Do you hear the recorded voice?",
+            "cn": "拔下耳机。有声播放器?",
+            "hk": "拔下耳機。有聲播放器?",
+            "sp": "Desenchufe los auriculares. Tiene sonido en el reproductor?",
+            "vn": "Bạn có nghe được giọng nói đã ghi âm?"
+        },
+        "MicrophoneText": {
+            "en": "Microphone",
+            "cn": "话筒测试",
+            "hk": "話筒測試",
+            "sp": "Microphone",
+            "vn": "Microphone"
+        },
+        "HasSoundInPlayerText": {
+            "en": "Has sound in player?",
+            "cn": "有声播放器?",
+            "hk": "有声播放器?",
+            "sp": "Tiene sonido en el reproductor?",
+            "vn": "Có âm thanh không?"
+        }
+    }
+}
